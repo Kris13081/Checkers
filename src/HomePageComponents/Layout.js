@@ -5,7 +5,8 @@ import HeroSection from "./HeroSection";
 import InfoSection from "./InfoSection";
 import HowItWorks from "./HowItWorks";
 import ServicesLayout from "./ServicesLayout";
-import FooterLayout from "./test/FooterLayout";
+import FooterLayout from "./FooterLayout";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = () => {
   return (

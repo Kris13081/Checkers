@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Nav, NavItem, NavLink } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const FooterNavigation = () => {
   const sections = [

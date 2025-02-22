@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const ServiceCardComponent = ({ icon, title, description }) => {
   return (

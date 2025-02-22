@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import HeaderSection from './HeaderSection';
 import ServiceCardComponent from './ServiceCardComponent';
 import CarImageComponent from '../HomePageComponents/CarImageComponent';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const ServicesLayout = () => {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import {Row, Col, Button } from "react-bootstrap";
 import CarImage from "../HomePageComponents/CarImage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const HeroSection = () => {
   var title = "Избери, резервирай и провери своят автомобил";

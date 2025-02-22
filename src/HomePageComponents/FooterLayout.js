@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterNavigation from './FooterNavigation';
 import FooterCopyright from './FooterCopyright';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const FooterLayout = () => {
   return (

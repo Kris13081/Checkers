@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import CalendarPage from "./components/CalendarPage";
 import BookingPage from "./components/BookingPage";
 import Layout from "./HomePageComponents/Layout";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

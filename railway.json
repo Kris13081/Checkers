@@ -12,7 +12,6 @@
           },
           "build": {
             "cmds": [
-              "chmod +x node_modules/.bin/*",
               "npm run build"
             ]
           }
@@ -22,8 +21,10 @@
     "deploy": {
       "runtime": "V2",
       "numReplicas": 1,
-      "startCommand": "npx serve -s build -l $PORT",
-      "preDeployCommand": ["npm install -g serve"],
+      "startCommand": "npx serve -s build -l $PORT --single",
+      "preDeployCommand": [
+        "npm install -g serve"
+      ],
       "restartPolicyType": "ON_FAILURE",
       "restartPolicyMaxRetries": 10
     }

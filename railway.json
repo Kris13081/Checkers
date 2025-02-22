@@ -4,9 +4,7 @@
       "builder": "NIXPACKS",
       "buildCommand": "npm install && npm run build",
       "nixpacksPlan": {
-        "providers": [
-          "nodejs"
-        ]
+        "providers": []
       }
     },
     "deploy": {

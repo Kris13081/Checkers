@@ -23,7 +23,7 @@ const HeaderSection = ({
       </Button>
       
       <h2 
-        className="m-0"
+        className="m-0 mb-4"
         style={{
           color: '#333333',
           fontSize: '32px',

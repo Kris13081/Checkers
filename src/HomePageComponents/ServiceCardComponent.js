@@ -9,8 +9,8 @@ const ServiceCardComponent = ({ icon, title, description }) => {
         <ListGroup.Item style={{ border: 'none', backgroundColor: 'inherit' }}>
           <div className="d-flex align-items-center justify-content-center" 
                style={{
-                 width: '64px',
-                 height: '64px',
+                 width: '60px',
+                 height: '60px',
                  backgroundColor: '#ECF5FF',
                  borderRadius: '16px'
                }}>

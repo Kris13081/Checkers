@@ -4,6 +4,7 @@ import HeaderSection from './HeaderSection';
 import ServiceCardComponent from './ServiceCardComponent';
 import CarImageComponent from './CarImageComponent';
 import './ServicesLayaut.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const services = [
   {
